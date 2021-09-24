@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url("https://images.pexels.com/photos/6693741/pexels-photo-6693741.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-size: 100%;
+    
+}
+
+.main-nav{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.main-nav li a{
+
+    /* typsnitt */
+   font-family: Georgia;
+   /* lije under text */
+   text-decoration: none;
+   font-size: 20px;
+
+   /* ändrar ifall man  vill ha stora eller små bokstäver. */
+   text-transform: uppercase; 
+   color: white;
+}
+
+.main-nav li a:hover{
+    border: 1px solid #fff;
+    background-color: pink;
+    border-radius: 100px;
+}
+.main-nav li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.main-content{
+    text-transform: unset; 
+    color: white;
+    display: block;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+
+.titel{
+    font-size: 20px;
+    font-family: Georgia;
+    color:white;
+    text-align: center;
+    padding-top: 200px;
+    cursor: pointer;
+}
+
+.innehåll{
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    color:white;
+    text-align: center;
+
+}
+.innehåll a{
+    color: pink;
+}
+
+.galleri{
+    padding-left: 50px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    padding-inline-start: 400px;
+}
+
+.gallery-1{
+    padding-bottom: 100px;
+}
+.gallery-2{
+    padding-bottom: 100px;
+}
+.gallery-3{
+    padding-bottom: 100px;
+}
+.gallery-4{
+    padding-bottom: 100px;
+}
+
+
+
+.main-content{
+    text-transform: unset; 
+    color: white;
+    display: block;
+    font-family: sans-serif;
+    
+}
+.intro{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 250px;
+    padding-bottom: 100px;
+}
+.info{
+    font-size: 20px;
+    padding: 0px 100px;
+    list-style: none;
+
+}
+.info li a{
+    color: white;
+}
+
+.emoji{
+    font-size: 100px;
+    text-align: center;
+    cursor: pointer;
+    /* user-select tar bort den blåa markeringen som blir när man klickar på något. */
+    user-select: none;
+}
+
+.spark{
+    display: none;
+}
+
+.fire{
+    display: none;
+}
+
+.active{
+    display: block;
+}
+
+.menu{
+    text-align: center;
+    color: white;
+}
+
+.main{
+    padding-top: 200px;
+}
+
+.main li a{
+    color: pink;
+    font-size: 40px;
+    text-decoration: pink;
+}
