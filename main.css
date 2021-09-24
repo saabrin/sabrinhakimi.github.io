@@ -113,6 +113,7 @@ body{
 
 .emoji{
     font-size: 100px;
+    font-size: 5rem;
     text-align: center;
     cursor: pointer;
     /* user-select tar bort den blåa markeringen som blir när man klickar på något. */

@@ -1,9 +1,11 @@
+
 //skapar en funktion som heter myFunction
 function myFunction (number){
   console.log(myFunction)
 }
 //anropar min funktion. 
 myFunction();
+
 
 //skapar en variabel som ska hämta min div ifrån min html kod.
 var myElement = document.getElementById("my-title");
@@ -19,7 +21,6 @@ myElement.addEventListener("click", function(){
 //skapar en variabel som sedan kallar på id, sparkle och flame.
 var star = document.getElementById("sparkle");
 var flames = document.getElementById("flame");
-
 
 
 //lägger till en eventlyssnare till variabeln star som ska lyssna efter klick.
@@ -57,8 +58,7 @@ totalFunction();
 try {
   var felID =  document.getElementById("Hej");
   felID.innerHTML += "kom";
-} 
-
+}
 // catch skapas för att fånga upp felet ovan i och med att det ID inte existsterar så kommer det att fånga upp det som ett fel.
 // Skriver ut ett felmeddelande och sedan + självaste felet. 
 catch(error) {
@@ -66,13 +66,4 @@ catch(error) {
 }
 
 //nu när felet är fångat så går vi vidare. 
-console.log("Nu kan vi gå vidare!")
-  
-  
-  
-
-  
-
-
-
-
+console.log("Nu kan vi gå vidare!");
